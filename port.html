@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>my portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
+ <link rel="stylesheet" href="/port.css">
+ <link rel="shortcut icon" href="images.webp">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+
+  <nav>
+    <div class="nav-logo">OO<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="hero-tag">Available for opportunities</div>
+      <h1>
+        Olaide<br>
+        <span class="highlight">Olamide</span>
+      </h1>
+      <p class="hero-sub">
+        Frontend Developer crafting clean, interactive web experiences with HTML5, CSS3, and JavaScript. Turning ideas into pixels — one commit at a time.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">Scroll</div>
+  </div>
+
+  <section id="about">
+    <div class="section-label" data-num="01">Who I Am</div>
+    <h2 class="section-title">About Me</h2>
+    <div class="divider"></div>
+    <div class="about-grid fade-up">
+      <div class="about-text">
+        <p>Hey there! I'm <span>Olaide Olamide</span>, a frontend developer with a passion for building things on the web that are both functional and visually engaging.</p>
+        <p>I work with <span>HTML5, CSS3, and JavaScript</span> to craft responsive, user-friendly interfaces. I love the process of taking a blank page and shaping it into something real.</p>
+        <p>I'm actively growing my skills, version control with <span>Git & GitHub</span>, DOM manipulation, and building interactive projects that push what I know. Always learning, always building.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat"><div class="stat-num">3+</div><div class="stat-label">Core Tech Skills</div></div>
+        <div class="stat"><div class="stat-num">∞</div><div class="stat-label">Curiosity Level</div></div>
+        <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Committed to Growth</div></div>
+        <div class="stat"><div class="stat-num">FE</div><div class="stat-label">Developer Focus</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-label" data-num="02">What I Know</div>
+    <h2 class="section-title">Skills</h2>
+    <div class="divider"></div>
+    <div class="skills-grid fade-up">
+      <div class="skill-card" style="--level: 90%"><div class="skill-icon">🌐</div><div class="skill-name">HTML5</div><div class="skill-level">Semantic markup</div></div>
+      <div class="skill-card" style="--level: 85%"><div class="skill-icon">🎨</div><div class="skill-name">CSS3</div><div class="skill-level">Layouts & animations</div></div>
+      <div class="skill-card" style="--level: 80%"><div class="skill-icon">⚡</div><div class="skill-name">JavaScript</div><div class="skill-level">DOM & interactivity</div></div>
+      <div class="skill-card" style="--level: 75%"><div class="skill-icon">🔀</div><div class="skill-name">Git</div><div class="skill-level">Version control</div></div>
+      <div class="skill-card" style="--level: 70%"><div class="skill-icon">🐙</div><div class="skill-name">GitHub</div><div class="skill-level">Collaboration & deploy</div></div>
+      <div class="skill-card" style="--level: 78%"><div class="skill-icon">📱</div><div class="skill-name">Responsive Design</div><div class="skill-level">Mobile-first</div></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-label" data-num="03">What I've Built</div>
+    <h2 class="section-title">Projects</h2>
+    <div class="divider"></div>
+    <div class="projects-grid fade-up">
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-folder">🎲</div>
+          <div class="project-links"><a href="#" title="GitHub">&#60;/&#62;</a><a href="#" title="Live">↗</a></div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">Flip Game</div>
+          <div class="project-desc">A 3D coin-flip game featuring a neo-brutalist UI, Web Audio API sound effects, and score persistence via localStorage.</div>
+          <div class="project-tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span></div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-folder">🌍</div>
+          <div class="project-links"><a href="#" title="GitHub">&#60;/&#62;</a><a href="#" title="Live">↗</a></div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">Portfolio Website</div>
+          <div class="project-desc">A personal portfolio showcasing frontend projects and skills, built from scratch with pure HTML, CSS, and vanilla JS.</div>
+          <div class="project-tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JS</span></div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-folder">🧩</div>
+          <div class="project-links"><a href="#" title="GitHub">&#60;/&#62;</a><a href="#" title="Live">↗</a></div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">Interactive DOM Project</div>
+          <div class="project-desc">A hands-on project exploring DOM manipulation, event handling, and dynamic content rendering with JavaScript.</div>
+          <div class="project-tags"><span class="tag">JavaScript</span><span class="tag">DOM</span><span class="tag">CSS3</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-label" data-num="04">Let's Talk</div>
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="divider"></div>
+    <div class="contact-inner fade-up">
+      <div class="contact-text">
+        <p>I'm currently open to frontend developer opportunities, collaborations, and interesting projects. Feel free to reach out — I'd love to connect!</p>
+        <div class="contact-links">
+          <a class="contact-link" href="https://mail.google.com/mail/?view=cm&to=olaideolamide001@gmail.com"><span class="link-icon">✉</span> my mail</a>
+          <a class="contact-link" href="https://wa.me/2347057126928" target="_blank"><span class="link-icon">💬</span> WhatsApp</a>
+          <a class="contact-link" href="https://github.com/paywithemmyy" target="_blank"><span class="link-icon">🐙</span> github</a>
+          <a class="contact-link" href="https://linkedin.com/in/olamide-olaide-85b1663a5" target="_blank"><span class="link-icon">💼</span> linkedin</a>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Jane Doe" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" placeholder="yourname@example.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="align-self: flex-start;">Send Message →</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>Designed &amp; built by <span>Olaide Olamide</span> &mdash; 2026</p>
+  </footer>
+
+  <script src="/port.js"></script>
+</body>
+</html>
