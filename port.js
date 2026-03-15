@@ -28,7 +28,7 @@ const cursor = document.getElementById('cursor');
   btn.disabled = true;
 
   // Send via EmailJS
-  emailjs.send('service_72zz900', 'template_4bz2zsw', {
+  emailjs.send('service_72zz9oo', 'template_4bz2zsw', {
     name: name,
     email: email,
     subject: subject,
